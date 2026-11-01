@@ -1,26 +1,12 @@
-<!DOCTYPE html>
-<html lang="zh-CN"><head><meta charset="utf-8">
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>3 薄壁环向应力 σ = pD/(2t)（推导） · 压力管道基础</title>
-<link rel="stylesheet" href="style.css">
-</head><body><div class="wrap">
+<title>3 薄壁环向应力 σ = pD/(2t)（推导） · 压力管道基础</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="wrap">
 <div class="top"><span>压力管道基础</span><a href="index.html">目录</a></div>
-<h2>3 薄壁环向应力 σ = pD/(2t)（推导）</h2>
 <p><b>方法</b>：把管子从中间剖成两半，看半个筒。</p>
-<ol>
-<li>内压推开它的合力 = 压力 × <b>投影面积</b> = <span class="f" style="display:inline;padding:2px 6px">p · D · L</span></li>
-<li>两片切口顶住它 = 2 × σ × (t × L)</li>
-<li>两者相等，L 约掉 → <b>σ = pD/(2t)</b></li>
-</ol>
-<figure>
-  <img src="img/thin-wall.png" alt="半个筒的受力：内压推开 vs 两片壁顶住">
-  <figcaption>把管子剖成两半：推开的是 p×D×L，顶住的是 2×σ×t×L</figcaption>
-</figure>
-
-<div class="tip"><b>为什么分母是 2t</b>：切开后左右各一片壁，各厚 t。<br>
-<b>投影面积不变</b>：不管切多少角度，投影永远是 D × L。<br>
-<b>D 越大应力越大</b>：推力按 D 涨，抗力的面积也按 D 涨，净效果是应力随 D 线性增大。</div>
-<div class="warn"><b>前提</b>：t 远小于 D（一般 t/D &lt; 0.1）。壁厚了内外壁应力差就明显，要换拉梅公式。</div>
+<ol><li>内压推开它的合力 = 压力 × <b>投影面积</b> = p · D · L</li><li>两片切口顶住它 = 2 × σ × (t × L)</li><li>两者相等，L 约掉 → <b>σ = pD/(2t)</b></li></ol>
+<figure><img src="img/thin-wall.png" alt="把管子剖成两半：推开的是 p×D×L，顶住的是 2×σ×t×L"><figcaption>把管子剖成两半：推开的是 p×D×L，顶住的是 2×σ×t×L</figcaption></figure>
+<div class="tip"><b>为什么分母是 2t</b>：切开后左右各一片壁，各厚 t。 <b>投影面积不变</b>：不管切多少角度，投影永远是 D × L。 <b>D 越大应力越大</b>：推力按 D 涨，抗力的面积也按 D 涨，净效果是应力随 D 线性增大。</div>
+<div class="warn"><b>前提</b>：t 远小于 D（一般 t/D < 0.1）。壁厚了内外壁应力差就明显，要换拉梅公式。</div>
 <div class="nav"><a href="s02.html">← 管壁上的三个方向</a><a href="index.html">目录</a><a href="s04.html">轴向应力 σ = pD/(4t) →</a></div>
-<footer>自动构建 · 有问题找姐姐</footer>
-</div></body></html>
+<footer>自动构建 · 有问题找姐姐</footer></div></body></html>
