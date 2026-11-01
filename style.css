@@ -11,7 +11,7 @@ h3{font-size:16px;margin:20px 0 8px}
 p{margin:10px 0}
 ol,ul{padding-left:22px;margin:10px 0}
 li{margin:6px 0}
-.f{background:#faf7f0;border-left:4px solid #d8c9ae;padding:10px 14px;margin:12px 0;font-family:Consolas,monospace;font-size:15px;overflow-x:auto}
+.f{background:#faf7f0;border-left:4px solid #d8c9ae;padding:10px 14px;margin:12px 0;font-family:Consolas,monospace;font-size:15px;overflow-x:auto;white-space:pre-wrap}
 .tip{background:#eef6ef;border-left:4px solid #2f7d4f;padding:10px 14px;margin:12px 0}
 .warn{background:#fdf0ee;border-left:4px solid #a8443a;padding:10px 14px;margin:12px 0}
 table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14px}
@@ -19,11 +19,12 @@ th,td{border:1px solid var(--line);padding:7px 9px;text-align:left}
 th{background:#f4f1ea}
 .sub{color:var(--sub);font-size:13px}
 blockquote{margin:10px 0;padding:8px 14px;border-left:3px solid var(--warm2);color:#3f382e;background:#faf7f0}
-.nav{display:flex;justify-content:space-between;margin-top:36px;padding-top:14px;border-top:1px dashed var(--line);font-size:15px}
-.nav a{color:var(--warm);text-decoration:none;padding:8px 0}
 figure{margin:18px 0;text-align:center}
 figure img{max-width:460px;width:100%;height:auto;border:1px solid var(--line);border-radius:4px}
 figcaption{color:var(--sub);font-size:13px;margin-top:6px}
+.nav{display:flex;justify-content:space-between;margin-top:36px;padding-top:14px;border-top:1px dashed var(--line);font-size:15px}
+.nav a{color:var(--warm);text-decoration:none;padding:8px 0}
 .toc a{display:block;padding:11px 12px;margin:8px 0;background:#faf7f0;border-left:4px solid var(--warm2);color:var(--ink);text-decoration:none;border-radius:3px}
 .toc a small{color:var(--sub);display:block;margin-top:2px}
 footer{margin-top:30px;color:var(--sub);font-size:13px;text-align:center}
+@media print{.nav,.top,footer{display:none}}
